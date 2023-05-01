@@ -100,9 +100,14 @@ input:active[type=button] {
     }
 
     .display-area{
-        color: black;
-        background-color: white;
+        color: black !important;
+        background-color: white !important;
     }
+
+    input[type=button] {
+        border-radius: 60px;
+    }
+    
     /* .header{
         margin-top: 15%;
     }
