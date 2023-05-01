@@ -1,0 +1,107 @@
+body{
+    background-color: black;
+    overflow-x: hidden;
+    font-family: 'Roboto', sans-serif;
+}
+
+.calculator{
+    margin: auto;
+    margin-top: 4%;
+    margin-bottom: 4%;
+}
+
+input[type=button] {
+    background-color: rgb(41, 40, 40);
+    color: white;
+    border-radius: 30px;
+    width: 60px;
+    height: 60px;
+    border: 0;
+    font-size: 18px;
+    /* margin-left: 5px; */
+    margin-right: 3px;
+    margin-top: 3px;
+}
+
+input:active[type=button] {
+    background-color: #e5e5e5;
+    webkit-box-shadow: inset 0px 0px 5px #c1c1c1;
+    -moz-box-shadow: inset 0px 0px 5px #c1c1c1;
+    box-shadow: inset 0px 0px 5px #c1c1c1;
+    }
+
+
+.display-area{
+    width: 96%;
+    height: 45px;
+    color: black;
+    background-color: #fff;
+    text-align: right;
+    font-size: 20px;
+}
+
+#orange{
+    background-color: orange;
+}
+#grey{
+    background-color: #c5c5c5;
+    color: black;
+}
+#zero{
+    width: 133px;
+}
+
+.header{
+    text-align: center;
+    margin-top: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.head{
+    color: white;
+    font-family: 'Montserrat', sans-serif !important;
+  font-family: 'Raleway', sans-serif !important;
+}
+.headb{
+    color: #0F5ACD;
+    animation: bounceInRight;
+    animation-duration: 3s;
+    font-family: 'Montserrat', sans-serif !important;
+    font-family: 'Raleway', sans-serif !important;
+    margin-left: 7px;
+}
+
+.footer{
+    text-align: center;
+    margin-top: 70px;
+}
+
+.foot{
+    color: white;
+    font-family: 'Montserrat', sans-serif !important;
+  font-family: 'Raleway', sans-serif !important;
+}
+
+
+ /* mobile styling */
+  /* mobile styling */
+  /* mobile styling */
+  /* mobile styling */
+  
+  @media screen and (max-width: 850px) {
+    .head, .headb{
+        font-size: 23px;
+    }
+
+    .overall{
+        margin-top: 35%;
+    }
+    /* .header{
+        margin-top: 15%;
+    }
+    .calculator{
+        margin-top: 30%;
+    } */
+  }

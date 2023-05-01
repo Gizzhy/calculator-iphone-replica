@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="styles.css">
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <script src="function.js"></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+/>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;900&display=swap" rel="stylesheet">
+
+        <!-- next -->
+        <title>A functional web calculator</title>
+    </head>
+    <body>
+        <div class="overall">
+        <div class="header">
+            <h1 class="head">A replica of the </h1><h1 class="headb">iOS calculator</h1>
+        </div>
+        <table class=" calculator">
+            <tr>
+                <td colspan="4">
+                    <input type="text" class="display-area" id="result" disabled/>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="button" value="AC" id="grey" onclick="clearScreen()">
+                </td>
+                <td>
+                    <input type="button"  value="+/-" id="grey" onclick="display('-')">
+                </td>
+                <td>
+                    <input type="button" value="%" id="grey" onclick="display('%')">
+                </td>
+                <td>
+                    <input type="button" value="÷" id="orange" onclick="display('/')">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="button" value="7" onclick="display('7')">
+                </td>
+                <td>
+                    <input type="button" value="8" onclick="display('8')">
+                </td>
+                <td>
+                    <input type="button" value="9" onclick="display('9')">
+                </td>
+                <td>
+                    <input type="button" value="×" id="orange" onclick="display('*')">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="button" value="4" onclick="display('4')">
+                </td>
+                <td>
+                    <input type="button" value="5" onclick="display('5')">
+                </td>
+                <td>
+                    <input type="button" value="6" onclick="display('6')">
+                </td>
+                <td>
+                    <input type="button" value="-" id="orange" onclick="display('-')">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="button" value="1" onclick="display('1')">
+                </td>
+                <td>
+                    <input type="button" value="2" onclick="display('2')">
+                </td>
+                <td>
+                    <input type="button" value="3" onclick="display('3')">
+                </td>
+                <td>
+                    <input type="button" value="+" id="orange" onclick="display('+')">
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <input type="button" value="0" id="zero" onclick="display('0')">
+                </td>
+                <td>
+                    <input type="button" value="." onclick="display('.')">
+                </td>
+                <td>
+                    <input type="button" value="=" id="orange" onclick="calculate()">
+                </td>
+            </tr>
+        </table>
+        <div class="footer">
+            <p class="foot">Built by Adisababa with 💙</p>
+        </div>
+    </div>
+    </body>
+</html>
