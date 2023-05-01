@@ -34,8 +34,8 @@ input:active[type=button] {
 .display-area{
     width: 96%;
     height: 45px;
-    color: black;
-    background-color: #fff;
+    color: black !important;
+    background-color: #fff !important;
     text-align: right;
     font-size: 20px;
 }
