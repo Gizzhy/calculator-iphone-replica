@@ -100,8 +100,8 @@ input:active[type=button] {
     }
 
     .display-area{
-        color: red;
-        background-color: pink;
+        color: black;
+        background-color: white;
     }
     /* .header{
         margin-top: 15%;
