@@ -90,7 +90,7 @@ input:active[type=button] {
   /* mobile styling */
   /* mobile styling */
   
-  /* @media screen and (min-width: 320px) {
+  @media screen and (min-width: 320px) {
     .head, .headb{
         font-size: 23px;
     }
@@ -105,7 +105,7 @@ input:active[type=button] {
     }
 
     input[type=button] {
-        border-radius: 60px !important;
+        border-radius: 50px !important;
     }
     
     .header{
@@ -114,4 +114,4 @@ input:active[type=button] {
     .calculator{
         margin-top: 30%;
     }
-  } */
+  }
