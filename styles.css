@@ -8,6 +8,7 @@ body{
     margin: auto;
     margin-top: 4%;
     margin-bottom: 4%;
+    /* border: white 2px solid; */
 }
 
 input[type=button] {
@@ -96,7 +97,7 @@ input:active[type=button] {
     }
 
     .overall{
-        margin-top: 35%;
+        margin-top: 2%;
     }
 
     .display-area{
@@ -109,9 +110,9 @@ input:active[type=button] {
     }
     
     .header{
-        margin-top: 15%;
+        margin-top: 5%;
     }
-    .calculator{
+    /* .calculator{
         margin-top: 30%;
-    }
+    } */
   }
